@@ -9,7 +9,7 @@ function App() {
   const [copied, setCopied] = useState(false);
   const [darkMode, setDarkMode] = useState(false);
 
-  const API_URL = 'http://localhost:8000/verify';
+  const API_URL = 'https://ai-fact-checker-api.onrender.com/verify';
 
   const handleSubmit = async (e) => {
     e.preventDefault();
